@@ -610,7 +610,7 @@ static int initr_env(void)
 	else if(!strcmp(p, "hdmi"))
         {
 #ifdef CONFIG_SYS_BOOT_NAND 
-                 setenv("bootcmd","nand read ${loadaddr} 0xa00000 0xa00000; nand read ${fdt_addr} 0x143F4800 0xc800;bootz ${loadaddr} - ${fdt_addr}");
+                 setenv("bootcmd","nand read ${loadaddr} 0xa00000 0xa00000; nand read ${fdt_addr} 0x144B000 0xc800;bootz ${loadaddr} - ${fdt_addr}");
 #else
                 setenv("fdt_file", "topeet_emmc_hdmi.dtb");
 #endif

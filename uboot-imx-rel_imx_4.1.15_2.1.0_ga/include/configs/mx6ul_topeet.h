@@ -123,7 +123,7 @@
 #if defined(CONFIG_SYS_BOOT_NAND)
 #define CONFIG_EXTRA_ENV_SETTINGS \
 	CONFIG_MFG_ENV_SETTINGS \
-	"lcdtype=4.3\0" \
+	"lcdtype=hdmi\0" \
 	"panel=TFT43AB\0" \
 	"fdt_addr=0x83000000\0" \
 	"fdt_high=0xffffffff\0"	  \
