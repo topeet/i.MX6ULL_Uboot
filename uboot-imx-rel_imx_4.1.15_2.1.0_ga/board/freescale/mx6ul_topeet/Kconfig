@@ -1,0 +1,12 @@
+if TARGET_MX6UL_TOPEET
+
+config SYS_BOARD
+	default "mx6ul_topeet"
+
+config SYS_VENDOR
+	default "freescale"
+
+config SYS_CONFIG_NAME
+	default "mx6ul_topeet"
+
+endif
