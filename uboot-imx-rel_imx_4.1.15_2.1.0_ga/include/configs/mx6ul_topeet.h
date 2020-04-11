@@ -146,6 +146,9 @@
 	"boot_fdt=try\0" \
 	"ip_dyn=yes\0" \
 	"panel=TFT43AB\0" \
+	"ipaddr=192.168.0.89\0" \
+	"serverip=192.168.0.16\0" \
+	"ethaddr=08:07:03:A0:03:22\0" \
 	"splashpos=m,m\0" \
 	"mmcdev="__stringify(CONFIG_SYS_MMC_ENV_DEV)"\0" \
 	"mmcpart=" __stringify(CONFIG_SYS_MMC_IMG_LOAD_PART) "\0" \
